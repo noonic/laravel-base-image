@@ -5,6 +5,15 @@
 - Creates thumbnails into various configurable sizes
 - Aspect ratio option
 
+## Installation
+```
+{
+    "require": {
+        "noonic/laravel-base-image": "^1.0"
+    }
+}
+```
+
 ## Usage
 
 ```blade
