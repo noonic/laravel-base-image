@@ -4,6 +4,7 @@
 - Crop image
 - Creates thumbnails with various configurable sizes
 - Aspect ratio option
+- Uses Iframe to upload file
 
 ## Installation
 **/composer.json**
