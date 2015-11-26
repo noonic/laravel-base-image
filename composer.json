@@ -1,0 +1,20 @@
+{
+  "name": "noonic/image",
+  "description": "Image upload, cropping and resizing.",
+  "keywords": ["laravel", "image", "copper", "resizer"],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Atul Yadav",
+	  "email": "atul.12788@gmail.com"
+	}
+  ],
+  "autoload": {
+    "psr-4": {
+      "Noonic\\Image\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "~5"
+  }
+}
