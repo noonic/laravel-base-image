@@ -10,7 +10,7 @@
 ```
 {
     "require": {
-        "noonic/laravel-base-image": "^1.0"
+        "noonic/image": "^1.0"
     }
 }
 ```
