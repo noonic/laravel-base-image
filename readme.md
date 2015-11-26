@@ -2,7 +2,7 @@
 
 - Upload images
 - Crop image
-- Creates thumbnails into various configurable sizes
+- Creates thumbnails with various configurable sizes
 - Aspect ratio option
 
 ## Installation
