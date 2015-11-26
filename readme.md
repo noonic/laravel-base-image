@@ -53,6 +53,11 @@ php artisan vendor:publish
 - **data**: [optional] [String] Pass image path to prefill data
 - **required**: [optional] [Boolean] [true / false] To make the image required, prompts JavaScript Alert box.
 
+## Requirements
+- PHP GD library
+- Jquery
+- Twitter Bootstrap
+
 ## Authors
 
 Atul Yadav - [GitHub](https://github.com/atulmy) &bull; [Twitter](https://twitter.com/atulmy)
