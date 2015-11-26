@@ -6,12 +6,30 @@
 - Aspect ratio option
 
 ## Installation
+**/composer.json**
 ```
 {
     "require": {
         "noonic/laravel-base-image": "^1.0"
     }
 }
+```
+**/config/app.php**
+```
+'providers' => [
+    ...
+    Noonic\Image\ImageServiceProvider::class,
+];
+
+'aliases' => [
+    ...
+    'Image'     => Noonic\Image\ImageHelperFacade::class,
+];
+```
+
+**Run:**
+```
+php artisan vendor:publish
 ```
 
 ## Usage
