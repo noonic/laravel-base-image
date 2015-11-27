@@ -8,7 +8,7 @@
     @include('noonic_image::error')
 
     <div class="cropper-content">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center" style="margin-top: 15%;">
 
             <p><img src="{{ $url }}" style="max-width: 300px;"/></p>
 

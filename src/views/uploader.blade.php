@@ -8,7 +8,7 @@
     @include('noonic_image::error')
 
     <div class="cropper-content">
-        <div class="col-sm-12 text-center">
+        <div class="col-sm-12 text-center" style="margin-top: 15%;">
             {!! Form::open(['route' => ['image_upload_image'], 'class' => 'form-horizontal', 'enctype' => 'multipart/form-data']) !!}
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-4">
