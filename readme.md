@@ -11,7 +11,7 @@
 ```
 {
     "require": {
-        "noonic/image": "^1.0"
+        "noonic/image": "^2.0"
     }
 }
 ```
