@@ -1,4 +1,4 @@
-# Laravel Image Uploader and Cropper `v2.0`
+# Laravel Image Uploader and Cropper
 
 - Upload images
 - Crop image
@@ -7,6 +7,7 @@
 - Uses Iframe to upload file
 
 ## Installation
+**1. Add the package to your application**
 **`/composer.json`**
 ```
 {
@@ -14,6 +15,9 @@
         "noonic/image": "^2.0"
     }
 }
+```
+
+**2. Add Provider and Facade **
 ```
 **`/config/app.php`**
 ```
@@ -28,12 +32,17 @@
 ];
 ```
 
-**Run:**
+**3 Publish package files:**
 ```
 php artisan vendor:publish
 ```
 
-**Include JavaScript Helper file**
+**4. Make output directory writable:**
+```
+chmod 777 -R /public/images/uploads/ 
+```
+
+**5. Include JavaScript Helper file**
 
 **`/resources/views/app.blade.php`**
 ```
@@ -45,7 +54,7 @@ php artisan vendor:publish
 ```blade
 {!! Form::open() !!}
   @include('noonic_image::_input', [
-      'name' => 'photo', option
+      'name' => 'photo', 
       'folder' => 'photos', 
       'data' => '', 
       'required' => true
