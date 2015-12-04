@@ -35,7 +35,7 @@ php artisan vendor:publish
 
 **Include JavaScript Helper file**
 
-**`app.blade.php`**
+**`/resources/views/app.blade.php`**
 ```
 <script type="text/javascript" src="{{ URL::asset('js/image.js') }}"></script>
 ```
