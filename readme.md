@@ -8,6 +8,7 @@
 
 ## Installation
 **1. Add the package to your application**
+
 **`/composer.json`**
 ```
 {
@@ -17,8 +18,8 @@
 }
 ```
 
-**2. Add Provider and Facade **
-```
+**2. Add Provider and Facade**
+
 **`/config/app.php`**
 ```
 'providers' => [
