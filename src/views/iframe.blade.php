@@ -10,7 +10,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css') }}" />
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/jumbotron-narrow.css') }}" />
     <style type="text/css">
         html, body { margin: 0px; padding: 0px; }
         .display-none { display: none; }
