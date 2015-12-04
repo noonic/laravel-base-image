@@ -1,4 +1,4 @@
-# Laravel Image Uploader and Cropper
+# Laravel Image Uploader and Cropper `v2.0`
 
 - Upload images
 - Crop image
