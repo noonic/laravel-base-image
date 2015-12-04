@@ -7,7 +7,7 @@
 - Uses Iframe to upload file
 
 ## Installation
-**/composer.json**
+**`/composer.json`**
 ```
 {
     "require": {
@@ -15,7 +15,7 @@
     }
 }
 ```
-**/config/app.php**
+**`/config/app.php`**
 ```
 'providers' => [
     ...
@@ -31,6 +31,13 @@
 **Run:**
 ```
 php artisan vendor:publish
+```
+
+**Include JavaScript Helper file**
+
+**`app.blade.php`**
+```
+<script type="text/javascript" src="{{ URL::asset('js/image.js') }}"></script>
 ```
 
 ## Usage
