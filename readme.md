@@ -62,18 +62,19 @@ php artisan vendor:publish
 ## Screenshots
 ### 1. Form
 ![Screenshot 1](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-1.png "Screenshot 1")
-
+---
 ### 2. Iframe image uploader
 ![Screenshot 2](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-2.png "Screenshot 2")
-
+---
 ### 3. After uploading image cropping area selection
-![Screenshot 2](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-3.png "Screenshot 3")
-
+![Screenshot 3](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-3.png "Screenshot 3")
+---
 ### 4. Corp success and show cropped image inside iframe
-![Screenshot 2](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-4.png "Screenshot 4")
-
+![Screenshot 4](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-4.png "Screenshot 4")
+---
 ### 5. Form with uploaded and cropped image preview
-![Screenshot 2](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-5.png "Screenshot 5")
+![Screenshot 5](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-5.png "Screenshot 5")
+---
 
 ## Authors
 
