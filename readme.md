@@ -13,7 +13,7 @@
 ```
 {
     "require": {
-        "noonic/image": "^2.0"
+        "noonic/image": "dev-master"
     }
 }
 ```
@@ -47,7 +47,7 @@ chmod 777 -R /public/images/uploads/
 
 **`/resources/views/app.blade.php`**
 ```
-<script type="text/javascript" src="{{ URL::asset('js/image.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('js/noonic.image.js') }}"></script>
 ```
 
 ## Usage
