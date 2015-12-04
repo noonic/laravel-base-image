@@ -13,13 +13,12 @@ class ImageHelper
         return preg_replace('/^(.*)\.' . $extension . '$/', '$1_'.$size.'.' . $extension, $filename);
     }
 
-    public static function getImageUrl($filename, $size = '', $default = '')
+    public static function getImageUrl($filename, $size = '')
     {
         if(filter_var($filename, FILTER_VALIDATE_URL)) {
             return $filename;
         }
 
-        // @TODO, i suggest using a caching mechanism
         $image = '';
 
         if($filename != '' && strlen($filename) !== 0) {
@@ -33,31 +32,6 @@ class ImageHelper
                 if(File::exists(public_path('/images/uploads'.$filename))) {
                     $image = asset('images/uploads'.$filename);
                 }
-            }
-        }
-
-        if(strlen($image) == 0 || $image == '') {
-            switch($default) {
-                case 'menu':
-                    $image = '/default/menu.jpg';
-                    break;
-                case 'event':
-                    $image = '/default/event.jpg';
-                    break;
-                case 'chef':
-                    $image = '/default/chef.jpg';
-                    break;
-                case 'location':
-                    $image = '/default/location.jpg';
-                    break;
-                case 'user':
-                    $image = '/default/user.png';
-                    break;
-            }
-            if($size !== '') {
-                $image = asset('images/uploads' . getImage($image, $size));
-            } else {
-                $image = asset('images/uploads'.$filename);
             }
         }
         return $image;

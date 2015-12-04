@@ -31,8 +31,6 @@ class ImageServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/config' => config_path('noonic_image'),
             __DIR__ . '/views' => base_path('resources/views/vendor/noonic_image'),
-            __DIR__ . '/migrations' => $this->app->databasePath() . '/migrations',
-            __DIR__ . '/seeds' => $this->app->databasePath() . '/seeds',
             __DIR__ . '/public' => base_path('public'),
         ]);
     }
