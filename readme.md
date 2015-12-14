@@ -69,7 +69,7 @@ chmod 777 -R /public/images/uploads/
 ```html
 <img src="{{ Image::getImageUrl($imagePathFromDatabase, 's') }}" />
 ```
-You can pass `t`, `s`, `m` or `l` as second parameter to obtain required size.
+You can pass `t` (thumbnail), `s` (small), `m` (medium) or `l` (large) as second parameter to obtain required size.
 
 ## Options
 
