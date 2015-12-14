@@ -52,6 +52,8 @@ chmod 777 -R /public/images/uploads/
 
 ## Usage
 
+** Create input for uploading new image **
+
 ```blade
 {!! Form::open() !!}
   @include('noonic_image::_input', [
@@ -61,6 +63,11 @@ chmod 777 -R /public/images/uploads/
       'required' => true
   ])
 {!! Form::close() !!}
+```
+
+** Access uploaded image **
+```html
+<img src="{{ Image::getImageUrl($imagePathFromDatabase, 's') }}" />
 ```
 
 ## Options

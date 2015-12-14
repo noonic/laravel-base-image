@@ -2,6 +2,8 @@
 
 namespace Noonic\Image;
 
+use Illuminate\Support\Facades\File;
+
 class ImageHelper
 {
     public static function getImage($filename, $size = 's')
