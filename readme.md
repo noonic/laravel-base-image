@@ -52,7 +52,7 @@ chmod 777 -R /public/images/uploads/
 
 ## Usage
 
-** Create input for uploading new image **
+**Create input for uploading new image**
 
 ```blade
 {!! Form::open() !!}
@@ -65,10 +65,11 @@ chmod 777 -R /public/images/uploads/
 {!! Form::close() !!}
 ```
 
-** Access uploaded image **
+**Access uploaded image**
 ```html
 <img src="{{ Image::getImageUrl($imagePathFromDatabase, 's') }}" />
 ```
+You can pass `t`, `s`, `m` or `l` as second parameter to obtain required size.
 
 ## Options
 
@@ -77,6 +78,32 @@ chmod 777 -R /public/images/uploads/
 - **folder**: [optional] [String] Name of folder where the image will be uploaded. Default: 'default' folder
 - **data**: [optional] [String] Pass image path to prefill data
 - **required**: [optional] [Boolean] [true / false] To make the image required, prompts JavaScript Alert box.
+
+## Sizes
+```php
+'sizes' => [
+    '16:9' => [
+        't' => [192, 108],
+        's' => [400, 225],
+        'm' => [800, 450],
+        'l' => [1024, 576]
+    ],
+
+    '4:3' => [
+        't' => [200, 150],
+        's' => [400, 300],
+        'm' => [800, 600],
+        'l' => [1024, 768]
+    ],
+
+    '1:1' => [
+        't' => [200, 200],
+        's' => [400, 400],
+        'm' => [800, 800],
+        'l' => [1024, 1024]
+    ]
+]
+```
 
 ## Requirements
 - PHP GD library
