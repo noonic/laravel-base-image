@@ -120,7 +120,7 @@ You can pass `t` (thumbnail), `s` (small), `m` (medium) or `l` (large) as second
 ### 3. After uploading image cropping area selection
 ![Screenshot 3](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-3.png "Screenshot 3")
 ---
-### 4. Corp success and show cropped image inside iframe
+### 4. Crop success and show cropped image inside iframe
 ![Screenshot 4](http://nooniclab.com/laravel-base/website/public/images/screenshots/image/uploader-4.png "Screenshot 4")
 ---
 ### 5. Form with uploaded and cropped image preview
